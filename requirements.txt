@@ -1,0 +1,4 @@
+# 坦克大战运行依赖
+# 开发环境已验证：Python 3.10.11 + pygame 2.4.0
+# 安装：pip install -r requirements.txt
+pygame==2.4.0

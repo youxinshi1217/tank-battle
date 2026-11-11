@@ -1,0 +1,15 @@
+* text=auto
+
+*.py   text
+*.md   text
+*.bat  text eol=crlf
+*.spec text
+
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.ogg  binary
+*.mp3  binary
+*.wav  binary
+*.flac binary
+*.ttc  binary

@@ -1,0 +1,50 @@
+# ===== Python 缓存 / 编译产物 =====
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*$py.class
+
+# ===== 虚拟环境（本地依赖，不入库）=====
+venv_py310/
+.venv/
+venv/
+env/
+
+# ===== PyInstaller 打包产物 =====
+build/
+dist/
+*.exe
+
+# ===== 字体文件（版权原因，不入库；fonts/README.md 说明如何自备）=====
+fonts/*.ttc
+fonts/*.ttf
+fonts/*.otf
+
+# ===== 运行时存档（游戏自动生成）=====
+save/*
+!save/.gitkeep
+
+# ===== 日志 / 崩溃记录 =====
+*.log
+crash_log.txt
+debug_log.txt
+err.log
+out.log
+
+# ===== 编辑器 / 系统文件 =====
+.vscode/
+.idea/
+*.lnk
+Thumbs.db
+Desktop.ini
+
+# ===== WorkBuddy 工作区记忆（不入库）=====
+.workbuddy/
+
+# ===== 临时文件 / 开发中间产物 =====
+*.bak
+*.zip
+_bg_tmp/
+_bg_out/
+_tmp_stage5_scripts/
